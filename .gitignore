@@ -1,0 +1,11 @@
+.DS_Store
+*.log
+node_modules/
+out/
+pnpm-lock.yaml
+package-lock.json
+.vscode-test/
+.vscode-test.mjs
+.vscode/
+.pnpm-store/
+*.vsix

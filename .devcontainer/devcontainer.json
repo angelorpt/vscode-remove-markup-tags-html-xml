@@ -1,0 +1,14 @@
+{
+  "name": "vscode-rmt-dev",
+  "dockerFile": "Dockerfile",
+  "mounts": [
+    //"target=${containerWorkspaceFolder}/node_modules,type=volume"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.extension-test-runner"
+      ]
+    }
+  }
+}
